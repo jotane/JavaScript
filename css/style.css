@@ -38,16 +38,22 @@
   color: rgba(165, 42, 42, 0.642);
 }
 
+
 .card-btn{
-  border: none;
+  display: flex;
+    justify-content: center;
+    border: none;
     font-size: 0,5rem;
     background-color: rgba(245, 245, 220, 0.938);
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem;
     border-radius: 1rem;
     cursor: pointer;
     padding: 2rem;
-    margin-left: 31rem;
+    margin-left: ;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.667);
+    
 
 }
 .card-btn:hover{
