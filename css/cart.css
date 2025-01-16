@@ -1,0 +1,60 @@
+#cart-container{
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .tarjeta-producto{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+  }
+  
+  .tarjeta-producto img{
+    width: 80px;
+    border-radius: 30%;
+    margin-left: 27rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .tarjeta-producto img:hover{
+    transform: scale(2.5);
+  }
+  
+  .tarjeta-producto h3{
+    width: 130px;
+    margin-left: 3rem;
+  }
+
+  .tarjeta-producto .precio{
+    background-color: rgba(162, 237, 219, 0.507);
+  }
+
+  .tarjeta-producto div{
+    background-color: var(--color-acento-claro);
+    padding: 3px;
+    border-radius: 5px;
+  }
+  
+  #totales{
+    text-align: center;
+  }
+  
+  #carrito-vacio{
+    text-align: center;
+  }
+
+
+.totales button{
+  font-size: larger;
+    background-color: rgba(245, 245, 220, 0.938);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(34, 32, 32);
+    border:unset;
+    cursor:pointer;
+}
+button:hover{
+  background-color: rgba(165, 42, 42, 0.642);
+}

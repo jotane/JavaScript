@@ -1,29 +1,28 @@
-const contenedortarjetas = document.getElementById("contenedorflex");
-
-function crearcard(diseños){
-    diseños.forEach(diseño => {
-        const nuevodiseño = document.createElement("div");
-        nuevodiseño.classList = "tarjeta-producto";
-        nuevodiseño.innerHTML = `
-        <img src="imagenes/diseno${diseño.id}.jpg">
-        <button>RESERVAR</button>
-        `
-        contenedortarjetas.appendChild(nuevodiseño);
-        nuevodiseño.getElementsByTagName("button")[0].addEventListener("click",()=>agregaralcarrito(diseño));
-    });
-    }
+const contenedorTarjetas = document.getElementById("productos-container");
 
 
+function crearTarjetasProductosInicio(productos){
+  productos.forEach(producto => {
+    const nuevoDiseño = document.createElement("div");
+    nuevoDiseño.classList = "tarjeta-producto"
+    nuevoDiseño.innerHTML = `
+    <img src="./imagenes/diseno${producto.id}.jpg" alt="diseno1">
+    <h3>${producto.nombre}</h3>
+    <p class="precio">$${producto.precio}</p>
+    <button>Reservar</button>
+    `
+    contenedorTarjetas.appendChild(nuevoDiseño);
+    nuevoDiseño.getElementsByTagName("button")[0].addEventListener("click",() => agregarAlCarrito(producto))
+  });
 
-crearcard(arrayDiseños);
-
-
-
+}
+crearTarjetasProductosInicio(Diseños);
 
 
 
 
 
+ 
 
 
 

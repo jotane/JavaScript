@@ -1,92 +1,92 @@
-const arrayDiseños = [
+const Diseños = [
     {
     id: 1,
     nombre: "diseño 1",
-    img: "imagenes/diseno1.jpg"
+    precio: "...",
     },
     {   
     id: 2,
     nombre: "diseño 2",
-    img: "imagenes/diseno2.jpg"
+    precio: "...",
     },
     {   
     id: 3,
     nombre: "diseño 3",
-    img: "imagenes/diseno3.jpg"
+    precio: "...",
     },
     {
     id: 4,
     nombre: "diseño 4",
-    img: "imagenes/diseno4.jpg"
+    precio: "...",
     },
     {
     id: 5,
     nombre: "diseño 5",
-    img: "imagenes/diseno5.jpg"
+    precio: "...",
     },
     {
     id: 6,
     nombre: "diseño 6",
-    img: "imagenes/diseno6.jpg"
+    precio: "...",
     },
     {
     id: 7,
     nombre: "diseño 7",
-    img: "imagenes/diseno7.jpg"
+    precio: "...",
     },
     {
     id: 8,
     nombre: "diseño 8",
-    img: "imagenes/diseno8.jpg" 
+    precio: "...",
     },
     {
     id: 9,
     nombre: "diseño 9",
-    img: "imagenes/diseno9.jpg"
+    precio: "...",
     },
     {
     id: 10,
     nombre: "diseño 10",
-    img: "imagenes/diseno10.jpg"
+    precio: "...",
     },
     {
     id: 11,
     nombre: "diseño 11",
-    img: "imagenes/diseno11.jpg"
+    precio: "...",
     },
     {
     id: 12,
     nombre: "diseño 12",
-    img: "imagenes/diseno12.jpg" 
+    precio: "...",
     },
     {
     id: 13,
     nombre: "diseño 13",
-    img: "imagenes/diseno13.jpg"
+    precio: "...",
     },
     {
     id: 14,
     nombre: "diseño 14",
-    img: "imagenes/diseno14.jpg"
+    precio: "...",
     },
     {
     id: 15,
     nombre: "diseño 15",
-    img: "imagenes/diseno15.jpg"
+    precio: "...",
     },
     {
     id: 16,
     nombre: "diseño 16",
-    img: "imagenes/diseno16.jpg"
+    precio: "...",
     },
     {
     id: 17,
     nombre: "diseño 17",
-    img: "imagenes/diseno17.jpg"
+    precio: "...",
     },
     {
     id: 18,
     nombre: "diseño 18",
-    img: "imagenes/diseno18.jpg"
+    precio: "...",
     },
 ];

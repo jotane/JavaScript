@@ -25,6 +25,12 @@
   display: flex;
   justify-content: center;
 }
+
+.enlaces img {
+  width: 30px;
+  border-radius: 50%;
+}
+
 .a {
   text-decoration: none;
   color: rgba(18, 17, 17, 0.749);
@@ -60,7 +66,7 @@
   background-color: rgba(165, 42, 42, 0.642);
 }
 
-.button{
+.buttonf{
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 1rem;
@@ -72,7 +78,7 @@
   display: flex;
   justify-content: center;
 }
-.button:hover {
+.buttonf:hover {
   background-color: rgba(165, 42, 42, 0.642);
 }
 .card{
@@ -90,19 +96,22 @@
     object-fit: cover;
   }
 
-  .contenedorflex {
+  .productos-container {
     display: flex;
     justify-content: space-around;
     object-fit: cover;
     gap: 1rem;
     flex-wrap: wrap;
   }
-  .contenedorflex .card {
+  .productos-container .card {
     padding: 1rem;
   }
+  .h3, p{
+    margin: 6px 0;
+    background-color: rgba(198, 198, 178, 0.9);
+  }
   
-  
-  .contenedorflex .card button {
+  .productos-container .card button {
     border: none;
     font-size: 0,5rem;
     background-color: rgba(245, 245, 220, 0.938);
@@ -110,38 +119,19 @@
     border-radius: 1rem;
     cursor: pointer;
   }
+
+  #cuenta-carrito{
+    background-color: rgba(165, 42, 42, 0.642);
+    color: rgb(248, 249, 250);
+    border-radius: 100%;
+    width: 20px;
+    display: inline-block;
+    aspect-ratio: 1;
+    text-align: center;
+    text-decoration: none;
+  }
+
   
 
-  .containercontact h2 {
-    text-align: center;
-    padding-top: 1rem;
-    font-size: 2rem;
-  }
-  .containercontact h3 {
-    text-align: center;
-    font-size: 1rem;
-  }
-  .containercontact h4 {
-    text-align: center;
-    font-size: 1rem;
-  }
-  .containercontact img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 2rem;
-    margin-left: 14rem;
-    margin-top: 1rem;
-  }
   
-  .logoinstagram img {
-    margin-top: 5rem;
-  }
   
-  .ubicacion {
-    text-align: center;
-    margin-top: 2rem;
-  }
-  .ubicacion iframe {
-    border-radius: 1rem;
-    overflow: hidden;
-  }
